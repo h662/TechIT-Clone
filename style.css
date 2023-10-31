@@ -92,6 +92,11 @@ button {
   border: 0;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
 header {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -113,9 +118,9 @@ header {
 }
 
 .header-container > div > ul {
-  list-style: none;
   display: flex;
   gap: 36px;
+  padding-left: 40px;
 }
 
 .header-container > div > ul > li {
@@ -152,4 +157,101 @@ header {
 .banner-container > h5 {
   margin-top: 16px;
   font-size: 18px;
+}
+
+.techit-school-container {
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.techit-school-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.techit-school-container > div > div > h5 {
+  color: #e67800;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.techit-school-container > div > div > h3 {
+  margin-top: 8px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.techit-school-container > div > button {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.techit-school-container > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.techit-school-container > ul > li {
+  width: 290px;
+  height: 416px;
+}
+
+.img-container {
+  margin-bottom: 16px;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 290px;
+  height: 221px;
+}
+
+.img-container > img {
+  width: 290px;
+  height: 221px;
+  transition: all 0.5s;
+}
+
+.img-container > img:hover {
+  transform: scale(1.1);
+}
+
+.techit-school-container > ul > li > span {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.d-7 {
+  color: #1d4ed8;
+  border: 1px solid #1d4ed8;
+}
+
+.alarm {
+  color: #059669;
+  border: 1px solid #059669;
+}
+
+.fin {
+  color: #3f3f46;
+  border: 1px solid #3f3f46;
+}
+
+.techit-school-container > ul > li > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 16px 0 8px 0;
+}
+
+.techit-school-container > ul > li > h5 {
+  font-size: 18px;
+}
+
+.date {
+  margin-top: 16px;
+  color: #a3a3a3;
 }
